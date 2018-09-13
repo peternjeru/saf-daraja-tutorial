@@ -1,0 +1,51 @@
+body 
+{
+	padding-top: 65px; 
+}
+
+#main_menu  > li > a:hover, #main_menu  > li > a:focus, #logs_field  > li > a:hover, #logs_field  > li > a:focus 
+{
+    background-color: #E7E3E3;
+    color: #555555;
+	font-weight: bold;
+}
+
+.affix 
+{
+	top: 0;
+	margin-top: 70px;
+	margin-right: 15px;
+}
+
+.affix + .container-fluid 
+{
+	padding-top: 70px;
+}
+
+
+.api_response
+{
+	background-color: #eee;
+	color: #fff;
+}
+
+.logs-panel
+{
+	background-color: #555;
+	color: #fff;
+}
+
+.tutorial_code
+{
+	background-color: #ccc;
+}
+
+pre 
+{
+    -moz-tab-size: 4;
+} /* Firefox */
+
+pre 
+{
+    tab-size: 4;
+}
